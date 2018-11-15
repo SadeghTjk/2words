@@ -19,6 +19,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:fullBackupContent="@xml/backup_rules">
+        <service
+            android:name=".MyPushListener"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="co.ronash.pushe.RECEIVE" />
+            </intent-filter>
+        </service>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
