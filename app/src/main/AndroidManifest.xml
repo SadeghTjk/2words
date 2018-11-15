@@ -20,6 +20,7 @@
         android:theme="@style/AppTheme"
         android:fullBackupContent="@xml/backup_rules">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <service
             android:name=".MyPushListener"
             android:exported="false">
@@ -34,6 +35,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+=======
+>>>>>>> parent of 95690dc... fix push noti
 =======
 >>>>>>> parent of 95690dc... fix push noti
         <receiver android:name="co.ronash.pushe.receiver.UpdateReceiver" >

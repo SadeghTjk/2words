@@ -30,6 +30,7 @@
         android:textSize="16sp"
         android:typeface="normal"
         tools:text="@string/maintext" />
+<<<<<<< HEAD
 
     <TextView
         android:id="@+id/word1"
@@ -48,5 +49,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-186dp"
         android:text="TextView" />
+=======
+>>>>>>> parent of 95690dc... fix push noti
 
 </RelativeLayout>
