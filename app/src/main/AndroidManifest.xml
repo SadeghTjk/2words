@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:fullBackupContent="@xml/backup_rules">
+<<<<<<< HEAD
         <service
             android:name=".MyPushListener"
             android:exported="false">
@@ -33,6 +34,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+=======
+>>>>>>> parent of 95690dc... fix push noti
         <receiver android:name="co.ronash.pushe.receiver.UpdateReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
@@ -58,6 +61,13 @@
 
         <meta-data android:name="co.ronash.pushe.token" android:value="PUSHE_969764603626"/>
         <meta-data android:name="co.ronash.pushe.cr" android:value="Tm9uZQ=="/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

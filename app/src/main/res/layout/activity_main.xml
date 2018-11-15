@@ -4,21 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="171dp"
-        android:fontFamily="@font/jannat"
-        android:text="TextView"
-        android:textSize="16sp"
-        android:typeface="normal"
-        tools:text="@string/maintext" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,40 +13,23 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/jannat"
         android:text="دو کلمه"
-        android:textAlignment="center"
         android:textColor="#6600ae"
+        android:textAlignment="center"
         android:textSize="60sp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView3"
-        android:layout_marginEnd="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
         android:fontFamily="@font/jannat"
-        android:text="کلمات امروز:"
+        android:text="TextView"
         android:textAlignment="viewEnd"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="normal" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="از اینکه دو کلمه رو انتخاب کردید سپاس گذاریم! "
-        android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="189dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView4"
-        android:layout_centerHorizontal="true"
-        android:text="مشاهده کلمات قبلی" />
+        android:typeface="normal"
+        tools:text="@string/maintext" />
 
     <TextView
         android:id="@+id/word1"
